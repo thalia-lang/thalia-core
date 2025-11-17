@@ -21,11 +21,11 @@ section .text
   core__string__size:
     xor eax, eax
     mov edx, [esp + 0x4]
-  .ll0:
+  .l0:
     cmp byte [edx + eax], 0x0
     je .ll1
     inc eax
     jmp .ll0
-  .ll1:
+  .l1:
     ret
 
