@@ -21,7 +21,15 @@
 
 #include <stdint.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 extern void core__system__exit(int32_t);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // THALIA_CORE_SYSTEM
 

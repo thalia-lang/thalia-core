@@ -21,7 +21,15 @@
 
 #include <stdint.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 extern int32_t core__string__size(char const[]);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // THALIA_CORE_STRING
 

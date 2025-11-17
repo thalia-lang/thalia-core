@@ -66,10 +66,8 @@ sudo make install INSTALL_PREFIX=/your/custom/path
 #include <thalia-core/string.h>
 
 int main(void) {
-    char const* message = "Hello Thalia World!";
-    int32_t size = core__string__size(message);
+    int32_t size = core__string__size("Hello World!");
     core__system__exit(size);
-    return 0;
 }
 ```
 
