@@ -158,7 +158,7 @@ sudo make uninstall
 
 ```
 thalia-core/
-├── src/                    # Assembly source files
+├── src/                   # Assembly source files
 │   ├── system.asm         # System operations
 │   └── string.asm         # String operations
 ├── public/cxx/            # Public C/C++ headers
@@ -171,8 +171,8 @@ thalia-core/
 │   │   └── main.c
 │   └── CMakeLists.txt
 ├── build/                 # Build output (generated)
-├── Makefile              # Main build system
-└── README.md             # This file
+├── Makefile               # Main build system
+└── README.md              # This file
 ```
 
 ## Make Targets
