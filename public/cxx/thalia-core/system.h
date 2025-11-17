@@ -16,12 +16,12 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-#ifndef _THALIA_CORE_SYSTEM_
-#define _THALIA_CORE_SYSTEM_
+#ifndef THALIA_CORE_SYSTEM
+#define THALIA_CORE_SYSTEM
 
 #include <stdint.h>
 
 extern void core__system__exit(int32_t);
 
-#endif // _THALIA_CORE_SYSTEM_
+#endif // THALIA_CORE_SYSTEM
 

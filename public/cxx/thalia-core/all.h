@@ -16,10 +16,11 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-#ifndef _THALIA_CORE_ALL_
-#define _THALIA_CORE_ALL_
+#ifndef THALIA_CORE_ALL
+#define THALIA_CORE_ALL
 
 #include "system.h"
+#include "string.h"
 
-#endif // _THALIA_CORE_ALL_
+#endif // THALIA_CORE_ALL
 

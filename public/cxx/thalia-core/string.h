@@ -16,12 +16,12 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-#ifndef _THALIA_CORE_STRING_
-#define _THALIA_CORE_STRING_
+#ifndef THALIA_CORE_STRING
+#define THALIA_CORE_STRING
 
 #include <stdint.h>
 
 extern int32_t core__string__size(char const[]);
 
-#endif // _THALIA_CORE_STRING_
+#endif // THALIA_CORE_STRING
 
