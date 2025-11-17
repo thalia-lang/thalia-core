@@ -196,7 +196,7 @@ thalia-core/
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit issues or pull requests.
+Contributions are welcome. If you have a feature request, or have found a bug, feel free to open a new issue. If you wish to contribute code, see CONTRIBUTING.md for more details.
 
 ### Guidelines
 
@@ -219,6 +219,3 @@ You should have received a copy of the GNU General Public License along with thi
 
 **Stan Vlad** - [vstan02@protonmail.com](mailto:vstan02@protonmail.com)
 
----
-
-For bug reports and feature requests, please open an issue on the project repository.
