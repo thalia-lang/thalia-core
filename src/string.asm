@@ -19,17 +19,13 @@ global core__string__size
 
 section .text
   core__string__size:
-    enter 0, 0
-    push ebx
     xor eax, eax
-    mov ebx, [ebp + 0x8]
+    mov edx, [esp + 0x4]
   .ll0:
-    cmp byte [ebx + eax], 0x0
+    cmp byte [edx + eax], 0x0
     je .ll1
     inc eax
     jmp .ll0
   .ll1:
-    pop ebx
-    leave
     ret
 
